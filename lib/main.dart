@@ -1,5 +1,7 @@
 import 'package:bootcamp_material/material/6_shop_list_app.dart';
+import 'package:bootcamp_material/material/comerce_app.dart';
 import 'package:bootcamp_material/material/7_row_column_example.dart';
+import 'package:bootcamp_material/material/7_row_column_example2.dart';
 import 'package:flutter/material.dart';
 
 import 'package:bootcamp_material/material/12_navigating_routing.dart';
@@ -22,7 +24,7 @@ import 'package:bootcamp_material/material/11_interactive_widget.dart';
 import 'package:bootcamp_material/material/17_local_api.dart';
 
 void main() {
-  runApp(ShopListCoba());
+  runApp(CommerceApp());
 }
 
 // via firebase

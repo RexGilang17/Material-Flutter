@@ -16,10 +16,13 @@ class Module10App extends StatelessWidget {
                 style: TextStyle(fontWeight: FontWeight.bold),
               ),
               SizedBox(
-                height: 5,
+                height: 15,
               ),
               Text("Kandersteg, Switzerland",
-                  style: TextStyle(color: Colors.grey))
+                  style: TextStyle(color: Colors.grey)),
+              SizedBox(
+                height: 10,
+              ),
             ],
           ),
         ),
@@ -69,7 +72,7 @@ class Module10App extends StatelessWidget {
           color: color,
         ),
         SizedBox(
-          height: 8,
+          height: 12,
         ),
         Text(
           label,
@@ -89,10 +92,10 @@ class Module10App extends StatelessWidget {
           body: SafeArea(
         child: Column(
           children: [
-            Image.asset("images/lake.jpg"),
+            Image.asset("images/Av.jpg"),
             titleSection,
+            textSection,
             buttonSection,
-            textSection
           ],
         ),
       )),
